@@ -65,3 +65,8 @@ function clearGrid() {
     gridSize = 0;
     promptUser();
 }
+
+//add button for grid toggle
+//add button for color picker
+//add button for erasing grid
+//add feature for erasing a cell via click
