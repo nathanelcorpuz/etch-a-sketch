@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    gap: 30px;
+}
+
+h1 {
+    font-size: 5vmin;
+}
+
+.container {
+    border: 1px solid black;
+    max-height: 700px;
+    max-width: 700px;
+    height: 70vmin;
+    width: 70vmin;
+    display: grid;
+}
