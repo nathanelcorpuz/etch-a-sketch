@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Play';
 }
 
 body {
@@ -14,8 +17,22 @@ body {
     gap: 30px;
 }
 
+header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.clear {
+    padding: 0.4em 1.5em;
+    font-size: 2.5vmin;
+    margin: auto;
+}
+
 h1 {
-    font-size: 5vmin;
+    font-size: 3vmin;
+    margin: auto;
 }
 
 .container {
