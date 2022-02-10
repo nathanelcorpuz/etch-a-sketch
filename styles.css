@@ -24,15 +24,23 @@ header {
     gap: 15px;
 }
 
-.clear {
-    padding: 0.4em 1.5em;
-    font-size: 2.5vmin;
-    margin: auto;
+.header-box-1 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header-btn {
+    padding: 6px 40px;
+    font-size: 16px;
 }
 
 h1 {
     font-size: 3vmin;
-    margin: auto;
+}
+
+.grid-lines-toggle {
+    outline: 1px solid gray;
 }
 
 .container {
