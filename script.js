@@ -5,7 +5,7 @@ let gridSize = 0;
 let gridItems = 0
 let gridItem;
 
-// promptUser();
+promptUser();
 
 function promptUser() {
     gridSize = prompt('Enter grid size #x# (4 to 100)');
@@ -90,5 +90,5 @@ function clearGrid() {
     promptUser();
 }
 
-//add feature for erasing a cell via click
-//add button for erase toggle
+//add shading feature
+//will go back to this code after a while for the shading feature
